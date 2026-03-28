@@ -119,7 +119,7 @@ DATA_PATH=./data/data_full.json
 | Variable | Default | Description |
 |---|---|---|
 | `MODEL_NAME` | `facebook/bart-large-mnli` | HuggingFace model ID |
-| `OOS_THRESHOLD` | `0.3` | Confidence below this → out-of-scope |
+| `OOS_THRESHOLD` | `0.05` | Confidence below this → out-of-scope |
 | `DATA_PATH` | *(required)* | Path to `data_full.json` |
 
 > **Note:** The model is cached at `~/.cache/huggingface/` after the first download.
